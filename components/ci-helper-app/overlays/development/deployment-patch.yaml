@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: ci-helper-app
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/psturc-tenant/ci-helper-app/ci-helper-app@sha256:7b715a1f17c13b5d36dc68e3ab501319cfe6928d02c53096535636dd35830393
+        name: ci-helper-app
+        resources: {}
+status: {}
