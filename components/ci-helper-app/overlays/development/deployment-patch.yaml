@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/psturc-tenant/ci-helper-app/ci-helper-app@sha256:7b715a1f17c13b5d36dc68e3ab501319cfe6928d02c53096535636dd35830393
+      - image: quay.io/redhat-user-workloads-stage/psturc-tenant/ci-helper-app/ci-helper-app@sha256:add6f5a82ff310b84878fd525b305503c43869b6dbc4e3a76c0a6df46f7bce1e
         name: ci-helper-app
         resources: {}
 status: {}
