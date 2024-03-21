@@ -41,7 +41,7 @@ spec:
             secretKeyRef:
               key: app-private-key
               name: ci-helper-app-secrets
-        image: quay.io/redhat-user-workloads-stage/psturc-tenant/ci-helper-app/ci-helper-app@sha256:c9ffe97627d09f9e8b64e59b2270e9060f23da5773ae98c6ec8f8ba65e9781ca
+        image: quay.io/redhat-user-workloads-stage/psturc-tenant/ci-helper-app/ci-helper-app@sha256:9a207609e0546c033bd8ef1e84068e9a5335bdd0c533642897081dfa25317bf5
         name: ci-helper-app
         ports:
         - containerPort: 8080
